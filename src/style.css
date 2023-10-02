@@ -12,18 +12,18 @@ body > * {
   min-height: 1em;
 }
 header {
-  background: cyan;
+  background: dodgerblue;
 }
 header > h1 {
   margin: 0;
 }
 nav {
-  background: magenta;
+  background: hotpink;
 }
 main {
-  background: yellow;
+  background: gold;
 }
 footer {
-  background: black;
+  background: rgb(37, 37, 37);
   color: white;
 }

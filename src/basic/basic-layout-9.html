@@ -3,14 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic Layout 9</title>
+    <title>Basic 9</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
-      /* Doe hier jouw ding! */
+      #basic-layout-9 {
+        gap: 1em;
+        margin: 1em;
+        display: grid;
+        grid-template:
+                    "header nav" 20%
+                    "main main" 150vh
+                    "footer footer" 20% / 20%;
+      }
+      
+      header {
+        grid-area: header;
+        padding: 1em;
+        text-align: center;
+      }
+
+      nav {
+        grid-area: nav;
+        padding: 1em;
+        text-align: center;
+      }
+
+      main {
+        grid-area: main;
+      }
+
+      footer {
+        grid-area: footer;
+      }
     </style>
   </head>
   <body id="basic-layout-9">
-    <header><h1>Basic Layout 9</h1></header>
+    <header><h1>Basic 9</h1></header>
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
     <main></main>
     <footer></footer>

@@ -3,14 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic Layout 2</title>
+    <title>Basic 2</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
-      /* Doe hier jouw ding! */
+      body {
+        display: block;
+      }
+
+      body > *:not(script) {
+        margin: 1em; 
+        text-align: center; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+      }
+
+      header {
+        height: 30vh;
+      }
+
+      nav {
+        height: 10vh;
+      }
+
+      main {
+        height: 100vh;
+      }
+
+      footer {
+        height: 25vh;
+      }
+
+
     </style>
   </head>
   <body id="basic-layout-2">
-    <header><h1>Basic Layout 2</h1></header>
+    <header><h1>Basic 2</h1></header>
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
     <main></main>
     <footer></footer>
